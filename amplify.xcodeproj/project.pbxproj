@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10839462B88E730007DA478 /* AddHeadphones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10839452B88E730007DA478 /* AddHeadphones.swift */; };
+		A108394D2B89083C007DA478 /* cans.csv in Resources */ = {isa = PBXBuildFile; fileRef = A108394C2B89083C007DA478 /* cans.csv */; };
+		A108394F2B8A55E3007DA478 /* amps.csv in Resources */ = {isa = PBXBuildFile; fileRef = A108394E2B8A55E2007DA478 /* amps.csv */; };
+		A10839512B8B5CE8007DA478 /* AddAmplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10839502B8B5CE8007DA478 /* AddAmplifier.swift */; };
 		A1C7CD132B7A2481005F7B30 /* amplifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7CD122B7A2481005F7B30 /* amplifyApp.swift */; };
 		A1C7CD152B7A2481005F7B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7CD142B7A2481005F7B30 /* ContentView.swift */; };
 		A1C7CD172B7A2483005F7B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C7CD162B7A2483005F7B30 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10839452B88E730007DA478 /* AddHeadphones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeadphones.swift; sourceTree = "<group>"; };
+		A108394C2B89083C007DA478 /* cans.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cans.csv; path = ../../cans.csv; sourceTree = "<group>"; };
+		A108394E2B8A55E2007DA478 /* amps.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = amps.csv; path = ../../amps.csv; sourceTree = "<group>"; };
+		A10839502B8B5CE8007DA478 /* AddAmplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAmplifier.swift; sourceTree = "<group>"; };
 		A1C7CD0F2B7A2481005F7B30 /* amplify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amplify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C7CD122B7A2481005F7B30 /* amplifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplifyApp.swift; sourceTree = "<group>"; };
 		A1C7CD142B7A2481005F7B30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				A1C7CD122B7A2481005F7B30 /* amplifyApp.swift */,
 				A1C7CD142B7A2481005F7B30 /* ContentView.swift */,
+				A10839502B8B5CE8007DA478 /* AddAmplifier.swift */,
+				A10839452B88E730007DA478 /* AddHeadphones.swift */,
+				A108394C2B89083C007DA478 /* cans.csv */,
+				A108394E2B8A55E2007DA478 /* amps.csv */,
 				A1C7CD162B7A2483005F7B30 /* Assets.xcassets */,
 				A1C7CD182B7A2483005F7B30 /* Preview Content */,
 			);
@@ -83,6 +95,8 @@
 			dependencies = (
 			);
 			name = amplify;
+			packageProductDependencies = (
+			);
 			productName = amplify;
 			productReference = A1C7CD0F2B7A2481005F7B30 /* amplify.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,8 @@
 				Base,
 			);
 			mainGroup = A1C7CD062B7A2480005F7B30;
+			packageReferences = (
+			);
 			productRefGroup = A1C7CD102B7A2481005F7B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +143,8 @@
 			files = (
 				A1C7CD1A2B7A2483005F7B30 /* Preview Assets.xcassets in Resources */,
 				A1C7CD172B7A2483005F7B30 /* Assets.xcassets in Resources */,
+				A108394D2B89083C007DA478 /* cans.csv in Resources */,
+				A108394F2B8A55E3007DA478 /* amps.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +157,8 @@
 			files = (
 				A1C7CD152B7A2481005F7B30 /* ContentView.swift in Sources */,
 				A1C7CD132B7A2481005F7B30 /* amplifyApp.swift in Sources */,
+				A10839462B88E730007DA478 /* AddHeadphones.swift in Sources */,
+				A10839512B8B5CE8007DA478 /* AddAmplifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,21 +289,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"amplify/Preview Content\"";
+				DEVELOPMENT_TEAM = B3ZU83J58S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = amplify.;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = me.avgmrcl.amplify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -297,21 +321,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"amplify/Preview Content\"";
+				DEVELOPMENT_TEAM = B3ZU83J58S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = amplify.;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = me.avgmrcl.amplify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
